@@ -1,0 +1,5 @@
+.productsField {
+    display: grid;
+    grid-template-columns: minmax(30px,2fr) repeat(2,minmax(70px,5fr)) minmax(200px,10fr) 3fr ;
+    row-gap: 20px;
+}
